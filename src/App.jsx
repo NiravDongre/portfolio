@@ -18,7 +18,7 @@
 
 import { useState, Fragment } from 'react';
 import { Sun, Moon, User } from 'lucide-react';
-import backgroundurl from "../assets/cat-phoro.jpeg"
+import backgroundurl from "../assets/my-photo.jpeg"
 
 const EMAIL = 'nsd3284@gmail.com'; // ← replace with your real email
 
