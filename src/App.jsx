@@ -18,6 +18,7 @@
 
 import { useState, Fragment } from 'react';
 import { Sun, Moon, User } from 'lucide-react';
+import backgroundurl from "../assets/cat-phoro.jpeg"
 
 const EMAIL = 'nsd3284@gmail.com'; // ← replace with your real email
 
@@ -26,8 +27,8 @@ const PROFILE = {
   eyebrow: 'B.Tech CSE · Backend & Full-Stack',
   tagline: 'Always trying to  build backend heavy application while also doing fullstack',
   bio: "B.Tech Computer Science & Engineering student focused on backend systems and full-stack development. ",
-  photoUrl: '', // ← add your photo here
-  photoAlt: 'Photo of Nirav',
+  photoUrl: backgroundurl, // ← add your photo here
+  photoAlt: "Nirav's Photo",
   availability: { show: true, text: 'open to internships & collabs' },
   email: EMAIL,
   resumeUrl: '', // add a link to your resume PDF to show a "resume" link in the nav
